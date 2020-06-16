@@ -12,4 +12,9 @@ public class ArticleId {
     public static ArticleId generate() {
         return new ArticleId(UUID.randomUUID().toString());
     }
+    
+    public String getId() {
+    	return id;
+    }
 }
+
